@@ -2,7 +2,7 @@
 /**
  * main - All possible combinations of three digits
  *
- * Return; Always 0 (success)
+ * Return: Always 0 (success)
  */
 int main(void)
 {
@@ -21,7 +21,6 @@ int main(void)
 			while (g < 58)
 			{
 				if (e != i && e != g && i != g && e < i && i < g)
-					
 				{
 				putchar(e);
 				putchar(i);
