@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main -
+ * main - Print all combinations of single digit numbers
  *
  * Return: Always 0 (success)
  */
@@ -14,7 +14,7 @@ int main(void)
 		if (i != 57)
 		{
 			putchar(',');
-			putchar('');
+			putchar(' ');
 		}
 	}
 	putchar('\n');
