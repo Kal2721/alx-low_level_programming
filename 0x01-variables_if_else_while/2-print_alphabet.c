@@ -1,3 +1,5 @@
+#include <stdlib.h>
+#include <time.h>
 #include <stdio.h>
 /**
  * main - print the alphabets in lowercase
@@ -13,6 +15,6 @@ int main(void)
 	{
 		putchar(alp[i]);
 	}
-	putchar('\n')
+	putchar('\n');
 		return (0);
 }
