@@ -29,7 +29,7 @@ int main(void)
 			}
 			i++;
 		}
-		ett;
+		e++;
 	}
 	putchar('\n');
 	return (0);
