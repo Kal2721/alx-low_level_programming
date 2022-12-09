@@ -43,7 +43,7 @@ int main(void)
 		h++;
 	}
 	putchar('\n');
-	return (o);
+	return (0);
 }
 
 
