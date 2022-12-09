@@ -1,0 +1,36 @@
+#include <stdio.h>
+/**
+ * main - All possible combinations of two digits
+ *
+ * Return: Always 0 (success)
+ */
+int main(void)
+{
+	int i, e;
+
+	i = 48;
+	e = 48;
+
+	while (e < 58)
+	{
+		i = 48;
+		while (i < 58)
+		{
+			if (e != i && e < 1)
+			{
+				putchar(e);
+				putchar(i);
+				if (i == 57 && e == 56)
+				{
+					break;
+				}
+				putchar(',');
+				putchar(' ');
+			}
+			i++;
+		}
+		ett;
+	}
+	putchar('\n');
+	return (0);
+}
