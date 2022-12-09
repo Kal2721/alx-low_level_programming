@@ -6,8 +6,7 @@
  */
 int main(void)
 {
-	int i, e, g, h, op1, op2;
-	
+	int i, e, g, h, op1, op2;	
 	 i = 48;
 	 e = 48;
 	 g = 48;
@@ -33,7 +32,7 @@ int main(void)
 						putchar(' ');
 						putchar(e);
 						putchar(i);
-						if (h == 57 && g == 56 && e == 57 && i == 57)
+				if (h == 57 && g == 56 && e == 57 && i == 57)
 							break;
 						putchar(',');
 						putchar(' ');
@@ -48,15 +47,4 @@ int main(void)
 	}
 	putchar('\n');
 	return (0);
-}
-
-
-
-
-
-
-
-
-
-
-		
+}		
