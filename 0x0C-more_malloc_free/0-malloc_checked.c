@@ -3,10 +3,10 @@
 #include <stdio.h>
 
 /**
- * malloc_cheaked - Allocates memory
+ * malloc_checked - Allocates memory
  * @b: the size to allocate
  *
- * Return: Nothing
+ * Return: Noithing
  */
 void *malloc_checked(unsigned int b)
 {
