@@ -2,11 +2,11 @@
 #include <stdlib.h>
 
 /**
- * *_calloc - 
- * @nmemb:
- * @size:
+ * _calloc - ...
+ * @nmemb: number of members
+ * @size: size
  *
- * Return:
+ * Return: ...
  */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
