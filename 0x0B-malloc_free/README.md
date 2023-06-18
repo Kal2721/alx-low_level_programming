@@ -1,2 +1,0 @@
-Projects of memeory allocation
-
