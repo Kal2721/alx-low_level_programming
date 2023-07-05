@@ -5,7 +5,7 @@
 
 /**
  * _print_rev_recursion - print a string in reverse
- * @s: the string to be printed 
+ *@s: the string to be printed 
  *
  * Return: nothing
  */
