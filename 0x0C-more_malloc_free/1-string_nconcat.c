@@ -22,6 +22,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 
 	while (s1[a])
 		a++;
+
 	while (s2[c])
 		c++;
 
@@ -49,4 +50,3 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	str[b] = '\0';
 	return (str);
 }
-
