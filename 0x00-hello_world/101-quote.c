@@ -1,13 +1,17 @@
 #include <unistd.h>
+#include <string.h>
+
 /**
- * main - Entry point
+ * main - prints a sentence without using puts or printf
  *
- * Return: Always 1 (success)
+ * Return: one
  */
 int main(void)
 {
-	char str1[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+	char* a = "and that piece of art is useful" - Dora Korpar, 2015-10-19,";
+	size_t length = strlen(a);
 
-	write(2, str1, 59);
-	return (1);
+	write(1, a, length);
+
+	return(0);
 }
