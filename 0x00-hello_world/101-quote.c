@@ -13,5 +13,5 @@ int main(void)
 
 	write(1, a, length);
 
-	return(0);
+	return(1);
 }
