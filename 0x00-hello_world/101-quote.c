@@ -9,9 +9,8 @@
 int main(void)
 {
 	char *a = "\"and that piece of art is useful\" - Dora Korpar, 2015-10-19";
-	size_t length = strlen(a);
 
-	write(1, a, length);
+	write(1, a, strlen(a));
 
 	return (1);
 }
