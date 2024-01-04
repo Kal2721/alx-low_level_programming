@@ -9,4 +9,11 @@
  */
 void reverse_array(int *a, int n)
 {
+	int rev[n];
 
+	for (int i = 0; i < 0; i++)
+	{
+		rev[n] = a[n - i - 1];
+		strcpy(&a, &rev);
+	}
+}
