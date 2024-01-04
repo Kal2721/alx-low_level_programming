@@ -2,18 +2,27 @@
 
 /**
  * reverse_array - reverses the content of an array of integers
- * @a: ...
+ * @a: araay of integers
  * @n: the number of elements of the array
  *
  * Return: Nothing
  */
 void reverse_array(int *a, int n)
 {
-	int rev[n];
+	int *p, i, swap, j;
 
-	for (int i = 0; i < 0; i++)
+	p = a;
+
+	for (i = 1; i < n; i++)
 	{
-		rev[n] = a[n - i - 1];
-		strcpy(&a, &rev);
+		p++;
+	}
+
+	for (j = 0; j < i / 2; j++)
+	{
+		swap = a[j];
+		a[j] = *p;
+		*p = swap;
+		p--;
 	}
 }
