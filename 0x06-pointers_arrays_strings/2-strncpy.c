@@ -16,6 +16,6 @@ char *_strncpy(char *dest, char *src, int n)
 	size = strnlen(src, n);
 
 	if (size != n)
-		memset(dest + size, '\0', n - size);
-	return memcpy(dest, src, size);
+		memset (dest + size, '\0', n - size);
+	return memcpy (dest, src, size);
 }
