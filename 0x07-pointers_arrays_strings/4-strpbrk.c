@@ -5,7 +5,7 @@
  * @s: sourcd file
  * @accept: accepted character
  *
- * Return: byte in s that matches one of the bytes in accept, or NULL
+ * Return: byte in s, or NULL
  */
 char *_strpbrk(char *s, char *accept)
 {
@@ -28,5 +28,6 @@ char *_strpbrk(char *s, char *accept)
 
 		x++;
 	}
+
 	return('\0');
 }
