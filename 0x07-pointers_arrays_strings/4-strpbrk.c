@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strbrk - searches a string for any of a set of bytes
+ * _strpbrk - searches a string for any of a set of bytes
  * @s: sourcd file
  * @accept: accepted character
  *
@@ -22,12 +22,9 @@ char *_strpbrk(char *s, char *accept)
 				s += x;
 				return (s);
 			}
-
 			y++;
 		}
-
 		x++;
 	}
-
 	return('\0');
 }
