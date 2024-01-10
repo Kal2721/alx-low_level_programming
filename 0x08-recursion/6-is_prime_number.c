@@ -1,4 +1,5 @@
 #include "main.h"
+#include <math.h>
 
 /**
  * is_prime_number - checks whether or not a number is prime
@@ -10,15 +11,16 @@ int is_prime_number(int n)
 {
 	int i;
 
-	if (n == 0 || n == 1)
+	if (n <= 1)
 		return (0);
 
-	for (i = 2; i <= n / 2; i++)
+	for (i = 2; i <= n / i; i++)
 	{
 		if (n % i == 0)
 			return (0);
-		else
-			return (1);
 	}
+	if ((n / i) < i)
+		return (1);
+
 	return (0);
 }
