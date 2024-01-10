@@ -1,6 +1,8 @@
 #include "main.h"
 #include <math.h>
 
+int check(int n, int i);
+
 /**
  * is_prime_number - checks whether or not a number is prime
  * @n: the number to be checked
@@ -9,8 +11,17 @@
  */
 int is_prime_number(int n)
 {
-	int i;
+	return (check(n, 1));
+}
 
+/**
+ * check - to check the numbers parity
+ * @n: number to be checked
+ *
+ * Return: 1 or 0
+ */
+int check(int n, int i)
+{
 	if (n <= 1)
 		return (0);
 
