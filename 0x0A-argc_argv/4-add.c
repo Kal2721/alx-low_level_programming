@@ -30,14 +30,17 @@ int main(int argc, char *argv[])
 					return (1);
 				}
 			}
+
 			sum += atoi(i);
 			i++;
 		}
+		
 		printf("%d\n", sum);
 	}
 	else
 	{
 		printf("0\n");
 	}
+
 	return (0);
 }
